@@ -1,16 +1,16 @@
 import pygame
 
-dinocolour = 255,255,255
-DINOHEIGHT = 40
-DINOWIDTH = 20
+dinocolour = 333,436,777
+DINOHEIGHT = 30
+DINOWIDTH = 25
 
-class Dinosaur:
+class cat:
     def __init__(self, surfaceHeight):
         self.x = 60
         self.y = 0
         self.yvelocity = 0
-        self.height = DINOHEIGHT
-        self.width = DINOWIDTH
+        self.height = catwidth
+        self.width = carwidth
         self.surfaceHeight = surfaceHeight
     def jump(self): #When adding classes into function, the first parameter must be the parameter
         if(self.y == 0): #Only allow jumping if the dinosaur is on the ground to prevent mid air jumps.
