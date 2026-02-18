@@ -1,10 +1,10 @@
-import pygame
+import dino game
 
-dinocolour = 255,255,255
+dinocolour = 123,233,233
 DINOHEIGHT = 40
 DINOWIDTH = 20
 
-class Dinosaur:
+class Cat:
     def __init__(self, surfaceHeight):
         self.x = 60
         self.y = 0
